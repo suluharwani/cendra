@@ -5,10 +5,10 @@
                 <div class="col-lg-4">
                     <div class="footer-brand">
                         <div class="brand-container">
-                            <span class="brand-icon">C</span>
+                            
                             <div class="brand-text">
-                                <span class="brand-name">CENDRATAMA</span>
-                                <span class="brand-subtitle">Cendrawasih Digikarya Pertama</span>
+                                <span class="brand-name"><?=$_ENV['app.companyShortName']?></span>
+                                <span class="brand-subtitle"><?=$_ENV['app.companyName']?></span>
                             </div>
                         </div>
                         <p class="footer-description">PT Cendrawasih Digikarya Pertama menyediakan solusi teknologi informasi terbaik untuk mendukung perkembangan bisnis Anda.</p>
@@ -42,16 +42,16 @@
                 <div class="col-lg-4 col-md-12">
                     <h4>Kontak Kami</h4>
                     <ul class="footer-contact">
-                        <li><i class="fas fa-map-marker-alt"></i> <span>Jl. Teknologi No. 123, Jakarta, Indonesia</span></li>
-                        <li><i class="fas fa-phone"></i> <span>+62 21 1234 5678</span></li>
-                        <li><i class="fas fa-envelope"></i> <span>info@cendratama.co.id</span></li>
+                        <li><i class="fas fa-map-marker-alt"></i> <span><?=$_ENV['app.address']?></span></li>
+                        <li><i class="fas fa-phone"></i> <span><?=$_ENV['app.phone']?></span></li>
+                        <li><i class="fas fa-envelope"></i> <span><?=$_ENV['app.email']?></span></li>
                         <li><i class="fas fa-clock"></i> <span>Senin - Jumat: 08:00 - 17:00</span></li>
                     </ul>
                 </div>
             </div>
             
             <div class="footer-bottom">
-                <p>&copy; <?= date('Y') ?> PT Cendrawasih Digikarya Pertama (CENDRATAMA). All rights reserved.</p>
+                <p>&copy; <?= date('Y') ?> <?=$_ENV['app.companyName']?>. All rights reserved.</p>
             </div>
         </div>
     </footer>

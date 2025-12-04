@@ -332,7 +332,7 @@ function initializeChatbot() {
         'harga': 'Untuk informasi harga, silakan kunjungi halaman layanan atau produk yang Anda minati. Anda juga bisa menggunakan kalkulator harga kami.',
         'website': 'Kami menyediakan layanan pembuatan website custom dengan harga mulai dari Rp 5.000.000. Silakan hubungi kami untuk konsultasi gratis.',
         'cctv': 'Pengadaan CCTV dimulai dari Rp 3.000.000 untuk paket dasar. Termasuk instalasi dan konfigurasi.',
-        'kontak': 'Anda bisa menghubungi kami di: Telepon: 021-12345678, Email: info@cendratama.co.id, WhatsApp: 0812-3456-7890',
+        'kontak': 'Anda bisa menghubungi kami di: Telepon: 081393484770, Email: info@cendratama.com, WhatsApp: 081393484770',
         'jam': 'Kami buka Senin - Jumat, 08:00 - 17:00 WIB. Support tersedia 24/7 untuk masalah darurat.',
         'default': 'Maaf, saya tidak mengerti pertanyaan Anda. Silakan tanyakan tentang: harga, website, cctv, kontak, atau jam operasional.'
     };
