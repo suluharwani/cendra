@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="<?= base_url('assets/css/style.css') ?>">
     
     <!-- Favicon -->
-    <link rel="icon" type="image/x-icon" href="<?= base_url('assets/img/favicon.ico') ?>">
+    <link rel="icon" type="image/x-icon" href="<?= base_url('icon.ico') ?>">
 </head>
 <body>
     <!-- Preloader -->

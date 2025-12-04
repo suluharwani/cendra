@@ -34,6 +34,12 @@ class Filters extends BaseFilters
         'forcehttps'    => ForceHTTPS::class,
         'pagecache'     => PageCache::class,
         'performance'   => PerformanceMetrics::class,
+         // Custom Filters
+        'auth'          => \App\Filters\AuthFilter::class,
+        'guest'         => \App\Filters\GuestFilter::class,
+        'admin'         => \App\Filters\AdminFilter::class,
+        'verified'      => \App\Filters\VerifiedFilter::class,
+        'throttle'      => \App\Filters\ThrottleFilter::class,
     ];
 
     /**
@@ -72,13 +78,23 @@ class Filters extends BaseFilters
      */
     public array $globals = [
         'before' => [
-            // 'honeypot',
-            // 'csrf',
-            // 'invalidchars',
+             'csrf' => [
+                'except' => [
+                    'api/*',
+                    'webhook/*',
+                    'payment/callback'
+                ]
+            ],
+            'invalidchars',
+            'throttle' => [
+                'max_requests' => 100,
+                'time_window' => 60 // seconds
+            ],
         ],
         'after' => [
+            'toolbar',
             // 'honeypot',
-            // 'secureheaders',
+            'secureheaders',
         ],
     ];
 
@@ -106,5 +122,40 @@ class Filters extends BaseFilters
      *
      * @var array<string, array<string, list<string>>>
      */
-    public array $filters = [];
+    public array $filters = [
+        'auth' => [
+            'before' => [
+                'dashboard/*',
+                'profile/*',
+                'orders/*',
+                'wishlist/*',
+                'settings/*',
+                'admin/*',
+            ]
+        ],
+        'guest' => [
+            'before' => [
+                'login',
+                'register',
+                'forgot-password',
+                'reset-password/*',
+                'verify/*',
+            ]
+        ],
+        'admin' => [
+            'before' => [
+                'admin/*',
+                'users/*',
+                'reports/*',
+                'settings/system',
+            ]
+        ],
+        'verified' => [
+            'before' => [
+                'checkout/*',
+                'premium/*',
+                'api/orders/create',
+            ]
+        ],
+    ];
 }

@@ -37,29 +37,24 @@ class Autoload extends AutoloadConfig
      *
      * @var array<string, list<string>|string>
      */
-    public $psr4 = [
-        APP_NAMESPACE => APPPATH,
+ public $psr4 = [
+        APP_NAMESPACE => APPPATH, // For custom app namespace
+        'Config'      => APPPATH . 'Config',
+        'PhpOffice\\PhpSpreadsheet' => APPPATH . '../vendor/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
+        'TCPDF'       => APPPATH . '../vendor/tecnickcom/tcpdf',
+        'Carbon'      => APPPATH . '../vendor/nesbot/carbon/src/Carbon',
+        'Intervention\\Image' => APPPATH . '../vendor/intervention/image/src/Intervention/Image',
+        'Dompdf'      => APPPATH . '../vendor/dompdf/dompdf/src',
+        'Midtrans'    => APPPATH . '../vendor/midtrans/midtrans-php',
+        'PHPMailer\\PHPMailer' => APPPATH . '../vendor/phpmailer/phpmailer/src',
+        'Ramsey\\Uuid' => APPPATH . '../vendor/ramsey/uuid/src',
+        'Stripe'      => APPPATH . '../vendor/stripe/stripe-php/lib',
+        'Mike42\\Escpos' => APPPATH . '../vendor/mike42/escpos-php/src/Mike42',
     ];
 
-    /**
-     * -------------------------------------------------------------------
-     * Class Map
-     * -------------------------------------------------------------------
-     * The class map provides a map of class names and their exact
-     * location on the drive. Classes loaded in this manner will have
-     * slightly faster performance because they will not have to be
-     * searched for within one or more directories as they would if they
-     * were being autoloaded through a namespace.
-     *
-     * Prototype:
-     *   $classmap = [
-     *       'MyClass'   => '/path/to/class/file.php'
-     *   ];
-     *
-     * @var array<string, string>
-     */
-    public $classmap = [];
-
+    public $classmap = [
+        'Faker\Factory' => APPPATH . '../vendor/fakerphp/faker/src/Factory.php',
+    ];
     /**
      * -------------------------------------------------------------------
      * Files
