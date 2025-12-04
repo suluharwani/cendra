@@ -4,7 +4,8 @@
         <!-- Logo/Brand -->
         <a class="navbar-brand" href="<?= base_url() ?>">
             <div class="brand-container">
-                <img src="<?= base_url('logo.png') ?>" alt="CENDRATAMA Logo" class="brand-icon me-2">
+                <img src="<?= base_url('logo.png') ?>" alt="CENDRATAMA Logo" 
+     class="brand-icon me-2 img-fluid border-0 shadow-none logo-80">
                 <div class="brand-text">
                     <span class="brand-name">CENDRATAMA</span>
                     <span class="brand-subtitle">Digital Solutions</span>

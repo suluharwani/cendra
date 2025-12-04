@@ -1795,3 +1795,9 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 0.7rem;
     opacity: 0.8;
 }
+.logo-80 {
+    width: 80% !important;
+    max-width: 80% !important;
+    height: auto;
+    margin: 0 auto;
+}

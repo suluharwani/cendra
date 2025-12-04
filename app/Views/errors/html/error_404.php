@@ -103,7 +103,8 @@
 <body>
     <div class="error-container">
         <div class="brand-logo">
-            <div class="brand-icon">C</div>
+            <img src="<?= base_url('logo.png') ?>" alt="CENDRATAMA Logo" 
+     class="brand-icon me-2 img-fluid border-0 shadow-none logo-80">
             <div class="brand-text">
                 <div class="brand-name">CENDRATAMA</div>
                 <div class="brand-subtitle">Cendrawasih Digikarya Pertama</div>
