@@ -133,7 +133,7 @@ class CreateServicesTable extends Migration
         ]);
         
         $this->forge->addPrimaryKey('id');
-        $this->forge->addKey('slug');
+        // $this->forge->addKey('slug');
         $this->forge->addKey('category');
         $this->forge->addKey('status');
         $this->forge->addKey('is_featured');
@@ -192,7 +192,7 @@ class CreateServicesTable extends Migration
                     'Performance Optimization'
                 ]),
                 'delivery_time' => null,
-                'revisions' => null,
+                'revisions' => 0,
                 'is_featured' => 1,
                 'status' => 'active',
                 'created_at' => date('Y-m-d H:i:s'),

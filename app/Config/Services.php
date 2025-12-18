@@ -17,7 +17,7 @@ class Services extends BaseService
         
         // Use PHPMailer if available
         if (class_exists('PHPMailer\PHPMailer\PHPMailer')) {
-            $email->setMailer('phpmailer');
+            $email->setProtocol('phpmailer');
         }
         
         return $email;

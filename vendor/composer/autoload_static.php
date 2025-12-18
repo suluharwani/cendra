@@ -21,15 +21,15 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
     );
 
     public static $prefixLengthsPsr4 = array (
-        'Z' =>
+        'Z' => 
         array (
             'ZipStream\\' => 10,
         ),
-        'T' =>
+        'T' => 
         array (
             'Tests\\Support\\' => 14,
         ),
-        'S' =>
+        'S' => 
         array (
             'Symfony\\Polyfill\\Php83\\' => 23,
             'Symfony\\Polyfill\\Mbstring\\' => 26,
@@ -41,12 +41,12 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
             'SnapBi\\' => 7,
             'Sabberworm\\CSS\\' => 15,
         ),
-        'R' =>
+        'R' => 
         array (
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
-        'P' =>
+        'P' => 
         array (
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Log\\' => 8,
@@ -58,7 +58,7 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
             'PhpOffice\\PhpSpreadsheet\\' => 25,
             'PHPMailer\\PHPMailer\\' => 20,
         ),
-        'M' =>
+        'M' => 
         array (
             'Mockery\\' => 8,
             'Mike42\\' => 7,
@@ -66,27 +66,27 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
             'Matrix\\' => 7,
             'Masterminds\\' => 12,
         ),
-        'L' =>
+        'L' => 
         array (
             'League\\Csv\\' => 11,
             'Laminas\\Escaper\\' => 16,
         ),
-        'I' =>
+        'I' => 
         array (
             'Intervention\\Image\\' => 19,
             'Intervention\\Gif\\' => 17,
         ),
-        'F' =>
+        'F' => 
         array (
             'FontLib\\' => 8,
             'Faker\\' => 6,
         ),
-        'D' =>
+        'D' => 
         array (
             'Dompdf\\' => 7,
             'DeepCopy\\' => 9,
         ),
-        'C' =>
+        'C' => 
         array (
             'Config\\' => 7,
             'Composer\\Pcre\\' => 14,
@@ -95,197 +95,197 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
             'Carbon\\Doctrine\\' => 16,
             'Carbon\\' => 7,
         ),
-        'B' =>
+        'B' => 
         array (
             'Brick\\Math\\' => 11,
         ),
-        'A' =>
+        'A' => 
         array (
             'App\\' => 4,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'ZipStream\\' =>
+        'ZipStream\\' => 
         array (
             0 => __DIR__ . '/..' . '/maennchen/zipstream-php/src',
         ),
-        'Tests\\Support\\' =>
+        'Tests\\Support\\' => 
         array (
             0 => __DIR__ . '/../..' . '/tests/_support',
         ),
-        'Symfony\\Polyfill\\Php83\\' =>
+        'Symfony\\Polyfill\\Php83\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-php83',
         ),
-        'Symfony\\Polyfill\\Mbstring\\' =>
+        'Symfony\\Polyfill\\Mbstring\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
         ),
-        'Symfony\\Contracts\\Translation\\' =>
+        'Symfony\\Contracts\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation-contracts',
         ),
-        'Symfony\\Component\\Translation\\' =>
+        'Symfony\\Component\\Translation\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
-        'Symfony\\Component\\Clock\\' =>
+        'Symfony\\Component\\Clock\\' => 
         array (
             0 => __DIR__ . '/..' . '/symfony/clock',
         ),
-        'Svg\\' =>
+        'Svg\\' => 
         array (
             0 => __DIR__ . '/..' . '/dompdf/php-svg-lib/src/Svg',
         ),
-        'Stripe\\' =>
+        'Stripe\\' => 
         array (
             0 => __DIR__ . '/..' . '/stripe/stripe-php/lib',
         ),
-        'SnapBi\\' =>
+        'SnapBi\\' => 
         array (
             0 => __DIR__ . '/..' . '/midtrans/midtrans-php/SnapBi',
         ),
-        'Sabberworm\\CSS\\' =>
+        'Sabberworm\\CSS\\' => 
         array (
             0 => __DIR__ . '/..' . '/sabberworm/php-css-parser/src',
         ),
-        'Ramsey\\Uuid\\' =>
+        'Ramsey\\Uuid\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
-        'Ramsey\\Collection\\' =>
+        'Ramsey\\Collection\\' => 
         array (
             0 => __DIR__ . '/..' . '/ramsey/collection/src',
         ),
-        'Psr\\SimpleCache\\' =>
+        'Psr\\SimpleCache\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/simple-cache/src',
         ),
-        'Psr\\Log\\' =>
+        'Psr\\Log\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/log/src',
         ),
-        'Psr\\Http\\Message\\' =>
+        'Psr\\Http\\Message\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-factory/src',
             1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
-        'Psr\\Http\\Client\\' =>
+        'Psr\\Http\\Client\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/http-client/src',
         ),
-        'Psr\\Container\\' =>
+        'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Psr\\Clock\\' =>
+        'Psr\\Clock\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/clock/src',
         ),
-        'PhpParser\\' =>
+        'PhpParser\\' => 
         array (
             0 => __DIR__ . '/..' . '/nikic/php-parser/lib/PhpParser',
         ),
-        'PhpOffice\\PhpSpreadsheet\\' =>
+        'PhpOffice\\PhpSpreadsheet\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpoffice/phpspreadsheet/src/PhpSpreadsheet',
         ),
-        'PHPMailer\\PHPMailer\\' =>
+        'PHPMailer\\PHPMailer\\' => 
         array (
             0 => __DIR__ . '/..' . '/phpmailer/phpmailer/src',
         ),
-        'Mockery\\' =>
+        'Mockery\\' => 
         array (
             0 => __DIR__ . '/..' . '/mockery/mockery/library/Mockery',
         ),
-        'Mike42\\' =>
+        'Mike42\\' => 
         array (
             0 => __DIR__ . '/..' . '/mike42/escpos-php/src/Mike42',
             1 => __DIR__ . '/..' . '/mike42/gfx-php/src/Mike42',
         ),
-        'Midtrans\\' =>
+        'Midtrans\\' => 
         array (
             0 => __DIR__ . '/..' . '/midtrans/midtrans-php/Midtrans',
         ),
-        'Matrix\\' =>
+        'Matrix\\' => 
         array (
             0 => __DIR__ . '/..' . '/markbaker/matrix/classes/src',
         ),
-        'Masterminds\\' =>
+        'Masterminds\\' => 
         array (
             0 => __DIR__ . '/..' . '/masterminds/html5/src',
         ),
-        'League\\Csv\\' =>
+        'League\\Csv\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/csv/src',
         ),
-        'Laminas\\Escaper\\' =>
+        'Laminas\\Escaper\\' => 
         array (
             0 => __DIR__ . '/..' . '/laminas/laminas-escaper/src',
         ),
-        'Intervention\\Image\\' =>
+        'Intervention\\Image\\' => 
         array (
             0 => __DIR__ . '/..' . '/intervention/image/src',
         ),
-        'Intervention\\Gif\\' =>
+        'Intervention\\Gif\\' => 
         array (
             0 => __DIR__ . '/..' . '/intervention/gif/src',
         ),
-        'FontLib\\' =>
+        'FontLib\\' => 
         array (
             0 => __DIR__ . '/..' . '/dompdf/php-font-lib/src/FontLib',
         ),
-        'Faker\\' =>
+        'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fakerphp/faker/src/Faker',
         ),
-        'Dompdf\\' =>
+        'Dompdf\\' => 
         array (
             0 => __DIR__ . '/..' . '/dompdf/dompdf/src',
         ),
-        'DeepCopy\\' =>
+        'DeepCopy\\' => 
         array (
             0 => __DIR__ . '/..' . '/myclabs/deep-copy/src/DeepCopy',
         ),
-        'Config\\' =>
+        'Config\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app/Config',
         ),
-        'Composer\\Pcre\\' =>
+        'Composer\\Pcre\\' => 
         array (
             0 => __DIR__ . '/..' . '/composer/pcre/src',
         ),
-        'Complex\\' =>
+        'Complex\\' => 
         array (
             0 => __DIR__ . '/..' . '/markbaker/complex/classes/src',
         ),
-        'CodeIgniter\\' =>
+        'CodeIgniter\\' => 
         array (
             0 => __DIR__ . '/..' . '/codeigniter4/framework/system',
         ),
-        'Carbon\\Doctrine\\' =>
+        'Carbon\\Doctrine\\' => 
         array (
             0 => __DIR__ . '/..' . '/carbonphp/carbon-doctrine-types/src/Carbon/Doctrine',
         ),
-        'Carbon\\' =>
+        'Carbon\\' => 
         array (
             0 => __DIR__ . '/..' . '/nesbot/carbon/src/Carbon',
         ),
-        'Brick\\Math\\' =>
+        'Brick\\Math\\' => 
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
-        'App\\' =>
+        'App\\' => 
         array (
             0 => __DIR__ . '/../..' . '/app',
         ),
     );
 
     public static $prefixesPsr0 = array (
-        'o' =>
+        'o' => 
         array (
-            'org\\bovigo\\vfs\\' =>
+            'org\\bovigo\\vfs\\' => 
             array (
                 0 => __DIR__ . '/..' . '/mikey179/vfsstream/src/main/php',
             ),
@@ -301,6 +301,7 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
         'App\\Filters\\AdminFilter' => __DIR__ . '/../..' . '/app/Filters/AdminFilter.php',
         'App\\Filters\\AuthFilter' => __DIR__ . '/../..' . '/app/Filters/AuthFilter.php',
         'App\\Filters\\GuestFilter' => __DIR__ . '/../..' . '/app/Filters/GuestFilter.php',
+        'App\\Filters\\ThrottleFilter' => __DIR__ . '/../..' . '/app/Filters/ThrottleFilter.php',
         'App\\Filters\\VerifiedFilter' => __DIR__ . '/../..' . '/app/Filters/VerifiedFilter.php',
         'App\\Models\\ActivityLogModel' => __DIR__ . '/../..' . '/app/Models/ActivityLogModel.php',
         'App\\Models\\ConsultationModel' => __DIR__ . '/../..' . '/app/Models/ConsultationModel.php',
@@ -865,6 +866,7 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
         'Config\\Images' => __DIR__ . '/../..' . '/app/Config/Images.php',
         'Config\\Kint' => __DIR__ . '/../..' . '/app/Config/Kint.php',
         'Config\\Logger' => __DIR__ . '/../..' . '/app/Config/Logger.php',
+        'Config\\Midtrans' => __DIR__ . '/../..' . '/app/Config/Midtrans.php',
         'Config\\Migrations' => __DIR__ . '/../..' . '/app/Config/Migrations.php',
         'Config\\Mimes' => __DIR__ . '/../..' . '/app/Config/Mimes.php',
         'Config\\Modules' => __DIR__ . '/../..' . '/app/Config/Modules.php',
@@ -876,6 +878,7 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
         'Config\\Security' => __DIR__ . '/../..' . '/app/Config/Security.php',
         'Config\\Services' => __DIR__ . '/../..' . '/app/Config/Services.php',
         'Config\\Session' => __DIR__ . '/../..' . '/app/Config/Session.php',
+        'Config\\Stripe' => __DIR__ . '/../..' . '/app/Config/Stripe.php',
         'Config\\Toolbar' => __DIR__ . '/../..' . '/app/Config/Toolbar.php',
         'Config\\UserAgents' => __DIR__ . '/../..' . '/app/Config/UserAgents.php',
         'Config\\Validation' => __DIR__ . '/../..' . '/app/Config/Validation.php',

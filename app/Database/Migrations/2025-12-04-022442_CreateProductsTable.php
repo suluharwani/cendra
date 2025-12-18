@@ -22,7 +22,7 @@ class CreateProductsTable extends Migration
             'slug' => [
                 'type' => 'VARCHAR',
                 'constraint' => '200',
-                'unique' => true,
+                'unique' => true, // Ini akan membuat UNIQUE INDEX
             ],
             'description' => [
                 'type' => 'TEXT',
@@ -35,7 +35,7 @@ class CreateProductsTable extends Migration
             'sku' => [
                 'type' => 'VARCHAR',
                 'constraint' => '50',
-                'unique' => true,
+                'unique' => true, // Ini akan membuat UNIQUE INDEX
             ],
             'price' => [
                 'type' => 'DECIMAL',
@@ -155,8 +155,8 @@ class CreateProductsTable extends Migration
         ]);
         
         $this->forge->addPrimaryKey('id');
-        $this->forge->addKey('slug');
-        $this->forge->addKey('sku');
+        // $this->forge->addKey('slug'); // DIHAPUS: sudah ada unique constraint
+        // $this->forge->addKey('sku');  // DIHAPUS: sudah ada unique constraint
         $this->forge->addKey('category');
         $this->forge->addKey('status');
         $this->forge->addKey('is_featured');

@@ -100,7 +100,7 @@ class CreateSubscriptionInvoicesTable extends Migration
         ]);
         
         $this->forge->addPrimaryKey('id');
-        $this->forge->addKey('invoice_number');
+        // $this->forge->addKey('invoice_number');
         $this->forge->addKey('subscription_id');
         $this->forge->addKey('client_id');
         $this->forge->addKey('status');

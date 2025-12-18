@@ -1,0 +1,622 @@
+CRITICAL - 2025-12-18 08:50:25 --> ErrorException: Undefined array key "app.companyShortName"
+[Method: GET, Route: /]
+in APPPATH\Views\footer.php on line 10.
+ 1 APPPATH\Views\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app.companyShortName"', 'C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('footer', [], true)
+ 5 APPPATH\Controllers\Home.php(141): view('footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+CRITICAL - 2025-12-18 14:32:08 --> ErrorException: Undefined array key "app.companyShortName"
+[Method: GET, Route: /]
+in APPPATH\Views\footer.php on line 10.
+ 1 APPPATH\Views\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app.companyShortName"', 'C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('footer', [], true)
+ 5 APPPATH\Controllers\Home.php(141): view('footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+CRITICAL - 2025-12-18 14:32:11 --> ErrorException: Undefined array key "app.companyShortName"
+[Method: GET, Route: /]
+in APPPATH\Views\footer.php on line 10.
+ 1 APPPATH\Views\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app.companyShortName"', 'C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('footer', [], true)
+ 5 APPPATH\Controllers\Home.php(141): view('footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+CRITICAL - 2025-12-18 14:41:23 --> ErrorException: Undefined array key "app.companyShortName"
+[Method: GET, Route: /]
+in APPPATH\Views\footer.php on line 10.
+ 1 APPPATH\Views\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app.companyShortName"', 'C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('footer', [], true)
+ 5 APPPATH\Controllers\Home.php(141): view('footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+CRITICAL - 2025-12-18 17:22:31 --> ErrorException: Undefined array key "app.companyShortName"
+[Method: GET, Route: /]
+in APPPATH\Views\footer.php on line 10.
+ 1 APPPATH\Views\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app.companyShortName"', 'C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('footer', [], true)
+ 5 APPPATH\Controllers\Home.php(141): view('footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:23:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 17:24:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:24:17 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:24:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 17:25:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:25:28 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:25:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:25:34 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 17:25:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:25:42 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:30:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 17:30:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:30:31 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:34:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:34:04 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:34:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:34:18 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:35:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:35:55 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:35:56 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:36:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:36:09 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:36:10 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:36:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:36:20 --> Error: Call to undefined method CodeIgniter\Email\Email::setMailer()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:37:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 17:37:08 --> Error: Call to undefined method CodeIgniter\Email\Email::using()
+[Method: GET, Route: login]
+in APPPATH\Config\Services.php on line 20.
+ 1 SYSTEMPATH\Config\BaseService.php(251): Config\Services::email(Object(Config\Email), false)
+ 2 APPPATH\Config\Services.php(12): CodeIgniter\Config\BaseService::getSharedInstance('email', null)
+ 3 APPPATH\Controllers\AuthController.php(22): Config\Services::email()
+ 4 SYSTEMPATH\CodeIgniter.php(903): App\Controllers\AuthController->__construct()
+ 5 SYSTEMPATH\CodeIgniter.php(498): CodeIgniter\CodeIgniter->createController()
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:37:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-18 17:37:22 --> CSRF token verified.
+DEBUG - 2025-12-18 17:37:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-18 17:37:22 --> Error connecting to the database: mysqli_sql_exception: The server requested authentication method unknown to the client [auth_gssapi_client] in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cendratama_db', 3306, '', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\app\Controllers\AuthController.php(80): CodeIgniter\BaseModel->first()
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\Users\\Suluh\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: The server requested authentication method unknown to the client [auth_gssapi_client] in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\app\Controllers\AuthController.php(80): CodeIgniter\BaseModel->first()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\Users\\Suluh\\...')
+#13 {main}
+CRITICAL - 2025-12-18 17:37:22 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client [auth_gssapi_client]
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(80): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:37:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 17:37:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-18 17:39:00 --> CSRF token verified.
+DEBUG - 2025-12-18 17:39:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-18 17:39:00 --> Error connecting to the database: mysqli_sql_exception: The server requested authentication method unknown to the client [auth_gssapi_client] in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:201
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(201): mysqli->real_connect('localhost', 'root', Object(SensitiveParameterValue), 'cendratama_db', 3306, '', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\app\Controllers\AuthController.php(80): CodeIgniter\BaseModel->first()
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#13 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\Users\\Suluh\\...')
+#14 {main}
+
+Next CodeIgniter\Database\Exceptions\DatabaseException: The server requested authentication method unknown to the client [auth_gssapi_client] in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:246
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(419): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\BaseModel.php(715): CodeIgniter\Model->doFirst()
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\app\Controllers\AuthController.php(80): CodeIgniter\BaseModel->first()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(363): CodeIgniter\CodeIgniter->run()
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\public\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\rewrite.php(44): require_once('C:\\Users\\Suluh\\...')
+#13 {main}
+CRITICAL - 2025-12-18 17:39:00 --> CodeIgniter\Database\Exceptions\DatabaseException: Unable to connect to the database.
+Main connection [MySQLi]: The server requested authentication method unknown to the client [auth_gssapi_client]
+[Method: POST, Route: login/process]
+in SYSTEMPATH\Database\BaseConnection.php on line 465.
+ 1 SYSTEMPATH\Database\BaseConnection.php(614): CodeIgniter\Database\BaseConnection->initialize()
+ 2 SYSTEMPATH\Database\BaseBuilder.php(1649): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `users`
+WHERE `email` = :email:
+AND `status` = :status:
+ LIMIT 1', [...], false)
+ 3 SYSTEMPATH\Model.php(330): CodeIgniter\Database\BaseBuilder->get()
+ 4 SYSTEMPATH\BaseModel.php(715): CodeIgniter\Model->doFirst()
+ 5 APPPATH\Controllers\AuthController.php(80): CodeIgniter\BaseModel->first()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\AuthController->processLogin()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\AuthController))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+DEBUG - 2025-12-18 17:39:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 17:39:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 17:39:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+ERROR - 2025-12-18 17:43:50 --> mysqli_sql_exception: Duplicate key name 'email' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-015109_CreateUsersTable.php(100): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:45:12 --> mysqli_sql_exception: Duplicate key name 'email' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-015109_CreateUsersTable.php(100): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:47:11 --> mysqli_sql_exception: Duplicate key name 'email' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `u...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `u...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `u...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `u...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-015109_CreateUsersTable.php(100): CodeIgniter\Database\Forge->createTable('users')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateUsersTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:53:40 --> mysqli_sql_exception: Duplicate key name 'slug' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-022442_CreateProductsTable.php(164): CodeIgniter\Database\Forge->createTable('products')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateProductsTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:54:22 --> mysqli_sql_exception: Duplicate key name 'sku' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-022442_CreateProductsTable.php(164): CodeIgniter\Database\Forge->createTable('products')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateProductsTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:54:37 --> mysqli_sql_exception: Duplicate key name 'slug' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `s...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-022442_CreateServicesTable.php(141): CodeIgniter\Database\Forge->createTable('services')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateServicesTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:56:41 --> mysqli_sql_exception: Duplicate key name 'slug' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `s...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-022442_CreateServicesTable.php(141): CodeIgniter\Database\Forge->createTable('services')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateServicesTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:57:02 --> mysqli_sql_exception: Column 'revisions' cannot be null in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('INSERT INTO `se...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `se...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `se...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(2345): CodeIgniter\Database\BaseConnection->query('INSERT INTO `se...', Array, false)
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-022442_CreateServicesTable.php(229): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateServicesTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:57:34 --> mysqli_sql_exception: Table 'services' already exists in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `s...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-022442_CreateServicesTable.php(141): CodeIgniter\Database\Forge->createTable('services')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateServicesTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:58:26 --> mysqli_sql_exception: Duplicate key name 'key' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `s...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-022445_CreateSettingsTable.php(74): CodeIgniter\Database\Forge->createTable('settings')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateSettingsTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:59:09 --> mysqli_sql_exception: Duplicate key name 'project_code' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `p...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `p...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `p...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `p...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-023338_CreateProjectsTable.php(150): CodeIgniter\Database\Forge->createTable('projects')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateProjectsTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:59:31 --> mysqli_sql_exception: Duplicate key name 'subscription_code' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `s...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-023415_CreateSubscriptionsTable.php(123): CodeIgniter\Database\Forge->createTable('subscriptions')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateSubscriptionsTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 17:59:59 --> mysqli_sql_exception: Duplicate key name 'invoice_number' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `s...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `s...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `s...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `s...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-023457_CreateSubscriptionInvoicesTable.php(110): CodeIgniter\Database\Forge->createTable('subscription_in...')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateSubscriptionInvoicesTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+ERROR - 2025-12-18 18:00:21 --> mysqli_sql_exception: Duplicate key name 'quotation_number' in C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:327
+Stack trace:
+#0 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(327): mysqli->query('CREATE TABLE `q...', 0)
+#1 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(729): CodeIgniter\Database\MySQLi\Connection->execute('CREATE TABLE `q...')
+#2 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('CREATE TABLE `q...')
+#3 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\Forge.php(570): CodeIgniter\Database\BaseConnection->query('CREATE TABLE `q...')
+#4 C:\Users\Suluh\Documents\GitHub\cendratama\app\Database\Migrations\2025-12-04-023523_CreateQuotationsTable.php(108): CodeIgniter\Database\Forge->createTable('quotations')
+#5 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(876): App\Database\Migrations\CreateQuotationsTable->up()
+#6 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Database\MigrationRunner.php(182): CodeIgniter\Database\MigrationRunner->migrate('up', Object(stdClass))
+#7 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Commands\Database\Migrate.php(85): CodeIgniter\Database\MigrationRunner->latest(NULL)
+#8 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Commands.php(74): CodeIgniter\Commands\Database\Migrate->run(Array)
+#9 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\CLI\Console.php(47): CodeIgniter\CLI\Commands->run('migrate', Array)
+#10 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(388): CodeIgniter\CLI\Console->run()
+#11 C:\Users\Suluh\Documents\GitHub\cendratama\vendor\codeigniter4\framework\system\Boot.php(133): CodeIgniter\Boot::runCommand(Object(CodeIgniter\CLI\Console))
+#12 C:\Users\Suluh\Documents\GitHub\cendratama\spark(87): CodeIgniter\Boot::bootSpark(Object(Config\Paths))
+#13 {main}
+DEBUG - 2025-12-18 18:00:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-18 18:00:55 --> CSRF token verified.
+DEBUG - 2025-12-18 18:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 18:00:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2025-12-18 18:01:27 --> CSRF token verified.
+DEBUG - 2025-12-18 18:01:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-12-18 18:01:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-12-18 18:01:37 --> TypeError: in_array(): Argument #2 ($haystack) must be of type array, null given
+[Method: GET, Route: dashboard]
+in APPPATH\Filters\AuthFilter.php on line 20.
+ 1 APPPATH\Filters\AuthFilter.php(20): in_array('verified', null)
+ 2 SYSTEMPATH\Filters\Filters.php(241): App\Filters\AuthFilter->before(Object(CodeIgniter\HTTP\IncomingRequest), null)
+ 3 SYSTEMPATH\Filters\Filters.php(221): CodeIgniter\Filters\Filters->runBefore([...])
+ 4 SYSTEMPATH\CodeIgniter.php(479): CodeIgniter\Filters\Filters->run('dashboard', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')

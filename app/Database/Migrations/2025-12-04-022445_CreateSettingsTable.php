@@ -69,7 +69,7 @@ class CreateSettingsTable extends Migration
         ]);
         
         $this->forge->addPrimaryKey('id');
-        $this->forge->addKey('key');
+        // $this->forge->addKey('key');
         $this->forge->addKey('group');
         $this->forge->createTable('settings');
         

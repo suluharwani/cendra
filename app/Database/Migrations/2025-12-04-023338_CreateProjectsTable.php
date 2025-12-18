@@ -137,7 +137,7 @@ class CreateProjectsTable extends Migration
         ]);
         
         $this->forge->addPrimaryKey('id');
-        $this->forge->addKey('project_code');
+        // $this->forge->addKey('project_code');
         $this->forge->addKey('client_id');
         $this->forge->addKey('service_id');
         $this->forge->addKey('status');

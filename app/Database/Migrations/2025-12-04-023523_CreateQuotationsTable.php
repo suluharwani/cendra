@@ -98,7 +98,7 @@ class CreateQuotationsTable extends Migration
         ]);
         
         $this->forge->addPrimaryKey('id');
-        $this->forge->addKey('quotation_number');
+        // $this->forge->addKey('quotation_number');
         $this->forge->addKey('client_id');
         $this->forge->addKey('project_id');
         $this->forge->addKey('status');

@@ -1,0 +1,45 @@
+CRITICAL - 2025-12-08 05:05:49 --> ErrorException: Undefined array key "app.companyShortName"
+[Method: GET, Route: /]
+in APPPATH\Views\footer.php on line 10.
+ 1 APPPATH\Views\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app.companyShortName"', 'C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('footer', [], true)
+ 5 APPPATH\Controllers\Home.php(141): view('footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+CRITICAL - 2025-12-08 05:06:12 --> ErrorException: Undefined array key "app.companyShortName"
+[Method: GET, Route: /]
+in APPPATH\Views\footer.php on line 10.
+ 1 APPPATH\Views\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app.companyShortName"', 'C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('footer', [], true)
+ 5 APPPATH\Controllers\Home.php(141): view('footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')
+CRITICAL - 2025-12-08 05:06:14 --> ErrorException: Undefined array key "app.companyShortName"
+[Method: GET, Route: /]
+in APPPATH\Views\footer.php on line 10.
+ 1 APPPATH\Views\footer.php(10): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "app.companyShortName"', 'C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php', 10)
+ 2 SYSTEMPATH\View\View.php(226): include('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\app\\Views\\footer.php')
+ 3 SYSTEMPATH\View\View.php(229): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1167): CodeIgniter\View\View->render('footer', [], true)
+ 5 APPPATH\Controllers\Home.php(141): view('footer')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Home->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(363): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(68): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('C:\\Users\\Suluh\\Documents\\GitHub\\cendratama\\public\\index.php')

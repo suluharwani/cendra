@@ -94,7 +94,7 @@ class CreateUsersTable extends Migration
         ]);
         
         $this->forge->addPrimaryKey('id');
-        $this->forge->addKey('email');
+        // $this->forge->addKey('email');
         $this->forge->addKey('status');
         $this->forge->addKey('role');
         $this->forge->createTable('users');
