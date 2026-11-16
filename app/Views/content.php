@@ -48,14 +48,14 @@ function character_limiter($str, $limit = 100, $suffix = '...')
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-6">
-                        <h1 class="hero-title">Solusi Digital <span class="highlight">Terpercaya</span> untuk Bisnis Anda</h1>
-                        <p class="hero-subtitle">PT Cendrawasih Digikarya Pertama (CENDRATAMA) menyediakan layanan pembuatan website, IT support, dan pengadaan perangkat TI terbaik untuk mendukung perkembangan bisnis Anda.</p>
+                        <h1 class="hero-title">Solusi Teknologi <span class="highlight">Terpercaya</span> untuk Bisnis Anda</h1>
+                        <p class="hero-subtitle"><?= esc(env('app.companyName', 'Cendratama Teknologi')) ?> membantu kebutuhan teknologi bisnis Anda, mulai dari CCTV, mesin & aplikasi kasir, pengadaan perangkat elektronik, pembuatan website, hingga aplikasi custom.</p>
                         <div class="hero-buttons">
                             <a href="<?= base_url('konsultasi') ?>" class="btn btn-primary">
-                                <i class="fas fa-calendar-check me-2"></i>Konsultasi Gratis
+                                <i class="fas fa-calendar-check me-2"></i>Konsultasi Kebutuhan
                             </a>
-                            <a href="<?= base_url('portfolio') ?>" class="btn btn-outline">
-                                <i class="fas fa-eye me-2"></i>Lihat Portfolio
+                            <a href="<?= base_url('layanan') ?>" class="btn btn-outline">
+                                <i class="fas fa-cogs me-2"></i>Lihat Layanan
                             </a>
                         </div>
                         
@@ -63,27 +63,21 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                         <div class="hero-features mt-4">
                             <div class="d-flex align-items-center mb-2">
                                 <i class="fas fa-check-circle text-success me-2"></i>
-                                <span>Garansi 1 tahun untuk semua layanan</span>
+                                <span>Solusi disesuaikan dengan kebutuhan dan lokasi</span>
                             </div>
                             <div class="d-flex align-items-center mb-2">
                                 <i class="fas fa-check-circle text-success me-2"></i>
-                                <span>Support 24/7 via WhatsApp & Telepon</span>
+                                <span>Pendampingan instalasi dan penggunaan sistem</span>
                             </div>
                             <div class="d-flex align-items-center">
                                 <i class="fas fa-check-circle text-success me-2"></i>
-                                <span>Gratis konsultasi awal</span>
+                                <span>Dukungan teknis dan konsultasi via WhatsApp/telepon</span>
                             </div>
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="hero-image">
-                            <img src="https://images.unsplash.com/photo-1552664730-d307ca884978?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Solusi Digital" class="img-fluid rounded">
-                            <div class="hero-badge">
-                                <div class="badge-content">
-                                    <span class="badge-title">500+</span>
-                                    <span class="badge-subtitle">Proyek Selesai</span>
-                                </div>
-                            </div>
+                            <img src="<?= base_url('assets/images/hero-illustration.svg') ?>" alt="Layanan Teknologi Cendratama" class="img-fluid rounded" onerror="this.src='<?= base_url('logo.png') ?>'">
                         </div>
                     </div>
                 </div>
@@ -134,30 +128,30 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                 <div class="row align-items-center">
                     <div class="col-lg-6">
                         <div class="features-image">
-                            <img src="https://images.unsplash.com/photo-1558494949-ef010cbdcc31?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Features" class="img-fluid rounded">
+                            <img src="<?= base_url('assets/images/about-illustration.svg') ?>" alt="Tentang Cendratama" class="img-fluid rounded" onerror="this.src='<?= base_url('logo.png') ?>'">
                         </div>
                     </div>
                     <div class="col-lg-6">
                         <div class="features-content">
-                            <h2>Mengapa Memilih <span class="brand-highlight">CENDRATAMA</span>?</h2>
+                            <h2>Mengapa Memilih <span class="brand-highlight"><?= esc(env('app.companyShortName', 'Cendratama')) ?></span>?</h2>
                             
                             <div class="feature-item">
                                 <div class="feature-icon">
-                                    <i class="fas fa-award"></i>
+                                    <i class="fas fa-tools"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h4>Profesional & Berpengalaman</h4>
-                                    <p>Tim ahli dengan pengalaman lebih dari 5 tahun di bidang IT dan pengembangan software.</p>
+                                    <h4>Solusi Sesuai Kebutuhan</h4>
+                                    <p>Rekomendasi perangkat dan sistem disesuaikan dengan kondisi lokasi, skala usaha, dan tujuan operasional Anda.</p>
                                 </div>
                             </div>
                             
                             <div class="feature-item">
                                 <div class="feature-icon">
-                                    <i class="fas fa-clock"></i>
+                                    <i class="fas fa-headset"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h4>Support 24/7</h4>
-                                    <p>Layanan dukungan teknis tersedia 24 jam untuk memastikan bisnis Anda berjalan lancar.</p>
+                                    <h4>Pendampingan & Dukungan</h4>
+                                    <p>Kami membantu proses instalasi, pengaturan, hingga penggunaan agar sistem dapat berjalan dengan baik.</p>
                                 </div>
                             </div>
                             
@@ -166,8 +160,8 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                                     <i class="fas fa-shield-alt"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h4>Garansi & Maintenance</h4>
-                                    <p>Semua produk dan layanan dilengkapi dengan garansi dan layanan perawatan berkala.</p>
+                                    <h4>Perangkat & Garansi</h4>
+                                    <p>Pengadaan perangkat dengan pilihan produk bergaransi resmi serta penjelasan spesifikasi yang transparan.</p>
                                 </div>
                             </div>
                             
@@ -176,8 +170,8 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                                     <i class="fas fa-handshake"></i>
                                 </div>
                                 <div class="feature-text">
-                                    <h4>Harga Kompetitif</h4>
-                                    <p>Penawaran harga yang kompetitif dengan kualitas terjamin dan transparan.</p>
+                                    <h4>Layanan Terintegrasi</h4>
+                                    <p>Dari keamanan (CCTV), operasional (kasir/POS), hingga website dan aplikasi, Anda bisa berkonsultasi dalam satu tempat.</p>
                                 </div>
                             </div>
                         </div>
@@ -250,10 +244,10 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                     <div class="col-md-4">
                         <div class="portfolio-card">
                             <div class="portfolio-image">
-                                <img src="<?= $portfolio['image'] ?>" alt="<?= $portfolio['title'] ?>" class="img-fluid">
+                                <img src="<?= $portfolio['image'] ?>" alt="<?= esc($portfolio['title']) ?>" class="img-fluid" onerror="this.src='<?= base_url('logo.png') ?>'">
                                 <div class="portfolio-overlay">
-                                    <a href="<?= $portfolio['url'] ?>" target="_blank" class="portfolio-link">
-                                        <i class="fas fa-external-link-alt"></i>
+                                    <a href="<?= $portfolio['url'] ?>" class="portfolio-link" title="Lihat portofolio">
+                                        <i class="fas fa-eye"></i>
                                     </a>
                                 </div>
                             </div>
@@ -283,74 +277,53 @@ function character_limiter($str, $limit = 100, $suffix = '...')
         <section class="testimonials-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Apa Kata Klien Kami</h2>
-                    <p>Testimoni dari klien yang telah menggunakan layanan kami</p>
+                    <h2>Fokus Layanan Kami</h2>
+                    <p>Pendekatan kerja yang kami terapkan dalam setiap kebutuhan klien</p>
                 </div>
                 
                 <div class="testimonials-slider">
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="client-avatar">
-                                <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Client">
+                            <div class="client-avatar" style="display:flex;align-items:center;justify-content:center;background:#059669;color:#fff;font-weight:700;">
+                                <i class="fas fa-video"></i>
                             </div>
                             <div class="client-info">
-                                <h5>Budi Santoso</h5>
-                                <p>Owner Restoran Sederhana</p>
-                            </div>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <h5>Keamanan & Monitoring</h5>
+                                <p>Solusi CCTV</p>
                             </div>
                         </div>
                         <div class="testimonial-body">
-                            <p>"Website yang dibuat CENDRATAMA sangat membantu bisnis restoran saya. Order online meningkat 40% sejak website diluncurkan."</p>
+                            <p>Perencanaan titik kamera, instalasi rapi, serta konfigurasi akses monitoring disesuaikan dengan kebutuhan pengawasan di lokasi.</p>
                         </div>
                     </div>
                     
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="client-avatar">
-                                <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Client">
+                            <div class="client-avatar" style="display:flex;align-items:center;justify-content:center;background:#059669;color:#fff;font-weight:700;">
+                                <i class="fas fa-cash-register"></i>
                             </div>
                             <div class="client-info">
-                                <h5>Maya Wijaya</h5>
-                                <p>Manager CV. Sejahtera Abadi</p>
-                            </div>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star-half-alt"></i>
+                                <h5>Operasional Penjualan</h5>
+                                <p>Kasir & POS</p>
                             </div>
                         </div>
                         <div class="testimonial-body">
-                            <p>"IT Support dari CENDRATAMA sangat responsif dan profesional. Masalah jaringan cepat teratasi, tidak mengganggu operasional."</p>
+                            <p>Pemilihan perangkat dan setup sistem kasir membantu pencatatan transaksi serta laporan penjualan berjalan lebih teratur.</p>
                         </div>
                     </div>
                     
                     <div class="testimonial-card">
                         <div class="testimonial-header">
-                            <div class="client-avatar">
-                                <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Client">
+                            <div class="client-avatar" style="display:flex;align-items:center;justify-content:center;background:#059669;color:#fff;font-weight:700;">
+                                <i class="fas fa-laptop-code"></i>
                             </div>
                             <div class="client-info">
-                                <h5>Hendra Pratama</h5>
-                                <p>Direktur PT. Makmur Jaya</p>
-                            </div>
-                            <div class="rating">
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
-                                <i class="fas fa-star"></i>
+                                <h5>Digitalisasi Bisnis</h5>
+                                <p>Website & Aplikasi</p>
                             </div>
                         </div>
                         <div class="testimonial-body">
-                            <p>"Instalasi CCTV untuk pabrik kami dilakukan dengan rapi dan profesional. Sistem berjalan lancar, monitoring lebih mudah."</p>
+                            <p>Pembuatan website dan aplikasi disesuaikan dengan proses bisnis, dengan pendampingan agar solusi mudah digunakan.</p>
                         </div>
                     </div>
                 </div>
@@ -403,12 +376,12 @@ function character_limiter($str, $limit = 100, $suffix = '...')
             <div class="container">
                 <div class="row align-items-center">
                     <div class="col-lg-8">
-                        <h2>Siap Mengembangkan Bisnis Anda dengan Teknologi?</h2>
-                        <p class="mb-0">Hubungi kami sekarang untuk konsultasi gratis dan dapatkan solusi terbaik untuk kebutuhan IT bisnis Anda.</p>
+                        <h2>Butuh Solusi Teknologi untuk Bisnis Anda?</h2>
+                        <p class="mb-0">Diskusikan kebutuhan CCTV, kasir/POS, pengadaan perangkat, website, atau aplikasi bersama tim <?= esc(env('app.companyShortName', 'Cendratama')) ?>.</p>
                     </div>
                     <div class="col-lg-4 text-lg-end">
-                        <a href="<?= base_url('konsultasi') ?>" class="btn btn-cta-large">
-                            <i class="fas fa-calendar-alt me-2"></i>Jadwalkan Konsultasi
+                        <a href="<?= base_url('kontak') ?>" class="btn btn-cta-large">
+                            <i class="fas fa-envelope me-2"></i>Hubungi Kami
                         </a>
                     </div>
                 </div>
@@ -421,8 +394,8 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                 <div class="newsletter-box">
                     <div class="row align-items-center">
                         <div class="col-lg-6">
-                            <h3>Berlangganan Newsletter</h3>
-                            <p>Dapatkan tips, promo, dan informasi terbaru seputar teknologi langsung di email Anda.</p>
+                            <h3>Dapatkan Informasi Terbaru</h3>
+                            <p>Terima informasi seputar layanan, solusi teknologi, dan pembaruan dari <?= esc(env('app.companyShortName', 'Cendratama')) ?>.</p>
                         </div>
                         <div class="col-lg-6">
                             <form id="newsletterForm" class="newsletter-form">
@@ -435,7 +408,7 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                                 <div class="form-check mt-2">
                                     <input class="form-check-input" type="checkbox" id="privacyCheck" required>
                                     <label class="form-check-label" for="privacyCheck">
-                                        Saya setuju dengan <a href="<?= base_url('privacy') ?>">kebijakan privasi</a>
+                                        Saya setuju dengan <a href="<?= base_url('kebijakan-privasi') ?>">kebijakan privasi</a>
                                     </label>
                                 </div>
                             </form>

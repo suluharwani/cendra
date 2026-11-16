@@ -4,11 +4,11 @@
         <!-- Logo/Brand -->
         <a class="navbar-brand" href="<?= base_url() ?>">
             <div class="brand-container">
-                <img src="<?= base_url('logo.png') ?>" alt="CENDRATAMA Logo" 
+                <img src="<?= base_url('logo.png') ?>" alt="Cendratama Teknologi" 
      class="brand-icon me-2 img-fluid border-0 shadow-none logo-80">
                 <div class="brand-text">
-                    <span class="brand-name">CENDRATAMA</span>
-                    <span class="brand-subtitle">Digital Solutions</span>
+                    <span class="brand-name">Cendratama</span>
+                    <span class="brand-subtitle">Teknologi</span>
                 </div>
             </div>
         </a>
@@ -156,10 +156,10 @@
     </div>
 </div>
 
-<!-- Floating WhatsApp Button (Simplified) -->
-<a href="https://wa.me/6281393484770?text=Halo%20CENDRATAMA,%20saya%20ingin%20konsultasi" 
+<!-- Floating WhatsApp Button -->
+<a href="https://wa.me/<?= esc(env('app.whatsapp', '6281327341834')) ?>?text=Halo%20Cendratama%20Teknologi,%20saya%20ingin%20konsultasi" 
    class="whatsapp-float" 
-   target="_blank"
+   target="_blank" rel="noopener noreferrer"
    title="Chat WhatsApp">
     <i class="fab fa-whatsapp"></i>
 </a>
