@@ -232,11 +232,12 @@ function character_limiter($str, $limit = 100, $suffix = '...')
         </section>
 
         <!-- Portfolio Section -->
+        <?php if (!empty($portfolios)): ?>
         <section class="portfolio-section" id="portfolio">
             <div class="container">
                 <div class="section-header">
                     <h2>Portfolio Kami</h2>
-                    <p>Beberapa proyek yang telah kami selesaikan untuk klien-klien kami</p>
+                    <p>Beberapa pekerjaan yang telah kami kerjakan</p>
                 </div>
                 
                 <div class="row">
@@ -252,11 +253,11 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                                 </div>
                             </div>
                             <div class="portfolio-body">
-                                <h4><?= $portfolio['title'] ?></h4>
-                                <p><?= $portfolio['category'] ?></p>
+                                <h4><?= esc($portfolio['title']) ?></h4>
+                                <p><?= esc($portfolio['category']) ?></p>
                                 <div class="portfolio-tech">
-                                    <?php foreach($portfolio['tech'] as $tech): ?>
-                                    <span class="tech-badge"><?= $tech ?></span>
+                                    <?php foreach(($portfolio['tech'] ?? []) as $tech): ?>
+                                    <span class="tech-badge"><?= esc($tech) ?></span>
                                     <?php endforeach; ?>
                                 </div>
                             </div>
@@ -272,6 +273,7 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                 </div>
             </div>
         </section>
+        <?php endif; ?>
 
         <!-- Testimonials Section -->
         <section class="testimonials-section">
@@ -331,11 +333,12 @@ function character_limiter($str, $limit = 100, $suffix = '...')
         </section>
 
         <!-- Blog Section -->
+        <?php if (!empty($blogs)): ?>
         <section class="blog-section">
             <div class="container">
                 <div class="section-header">
-                    <h2>Artikel & Tips Terbaru</h2>
-                    <p>Informasi terkini seputar teknologi dan bisnis</p>
+                    <h2>Artikel & Informasi</h2>
+                    <p>Informasi seputar layanan dan teknologi</p>
                 </div>
                 
                 <div class="row">
@@ -343,19 +346,18 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                     <div class="col-md-4">
                         <div class="blog-card">
                             <div class="blog-image">
-                                <img src="<?= $blog['image'] ?>" alt="<?= $blog['title'] ?>" class="img-fluid">
+                                <img src="<?= $blog['image'] ?>" alt="<?= esc($blog['title']) ?>" class="img-fluid" onerror="this.src='<?= base_url('logo.png') ?>'">
                                 <div class="blog-date">
                                     <span class="day"><?= date('d', strtotime($blog['date'])) ?></span>
                                     <span class="month"><?= date('M', strtotime($blog['date'])) ?></span>
                                 </div>
                             </div>
                             <div class="blog-body">
-                                <div class="blog-category"><?= $blog['category'] ?></div>
-                                <h4><a href="<?= base_url('blog/' . $blog['slug']) ?>"><?= $blog['title'] ?></a></h4>
+                                <div class="blog-category"><?= esc($blog['category']) ?></div>
+                                <h4><a href="<?= base_url('blog/' . $blog['slug']) ?>"><?= esc($blog['title']) ?></a></h4>
                                 <p><?= character_limiter($blog['excerpt'], 100) ?></p>
                                 <div class="blog-meta">
-                                    <span><i class="far fa-eye me-1"></i> <?= $blog['views'] ?> views</span>
-                                    <span><i class="far fa-clock me-1"></i> <?= $blog['read_time'] ?> min read</span>
+                                    <span><i class="far fa-clock me-1"></i> <?= (int)($blog['read_time'] ?? 0) ?> min read</span>
                                 </div>
                             </div>
                         </div>
@@ -370,6 +372,7 @@ function character_limiter($str, $limit = 100, $suffix = '...')
                 </div>
             </div>
         </section>
+        <?php endif; ?>
 
         <!-- CTA Section -->
         <section class="cta-section">

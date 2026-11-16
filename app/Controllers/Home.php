@@ -84,64 +84,9 @@ class Home extends BaseController
             ]
         ];
         
-        // Portofolio (contoh tipe pekerjaan yang relevan)
-        $portfolios = [
-            [
-                'title' => 'Instalasi CCTV Area Usaha',
-                'category' => 'Keamanan',
-                'image' => base_url('assets/images/placeholder-portfolio.svg'),
-                'url' => base_url('portfolio'),
-                'tech' => ['CCTV', 'DVR/NVR', 'Remote Monitoring']
-            ],
-            [
-                'title' => 'Implementasi Sistem Kasir',
-                'category' => 'POS',
-                'image' => base_url('assets/images/placeholder-portfolio.svg'),
-                'url' => base_url('portfolio'),
-                'tech' => ['POS', 'Printer Thermal', 'Barcode Scanner']
-            ],
-            [
-                'title' => 'Website & Sistem Informasi Bisnis',
-                'category' => 'Website & Aplikasi',
-                'image' => base_url('assets/images/placeholder-portfolio.svg'),
-                'url' => base_url('portfolio'),
-                'tech' => ['Web', 'Database', 'Integrasi']
-            ]
-        ];
-        
-        // Artikel/informasi (edukatif, tanpa klaim palsu)
-        $blogs = [
-            [
-                'title' => 'Hal yang Perlu Disiapkan Sebelum Instalasi CCTV',
-                'excerpt' => 'Tentukan titik pantau, kebutuhan perekaman, dan akses monitoring agar sistem CCTV sesuai kebutuhan lokasi.',
-                'image' => base_url('assets/images/placeholder-blog.svg'),
-                'slug' => 'persiapan-instalasi-cctv',
-                'category' => 'CCTV',
-                'date' => date('Y-m-d'),
-                'views' => 0,
-                'read_time' => 4
-            ],
-            [
-                'title' => 'Manfaat Aplikasi Kasir untuk UMKM',
-                'excerpt' => 'Pencatatan transaksi dan laporan yang rapi membantu pemilik usaha memantau penjualan harian dengan lebih mudah.',
-                'image' => base_url('assets/images/placeholder-blog.svg'),
-                'slug' => 'manfaat-aplikasi-kasir-umkm',
-                'category' => 'Kasir',
-                'date' => date('Y-m-d'),
-                'views' => 0,
-                'read_time' => 4
-            ],
-            [
-                'title' => 'Website Bisnis: Informasi Penting yang Harus Ada',
-                'excerpt' => 'Profil usaha, layanan, kontak, dan bukti pekerjaan yang jelas membantu calon pelanggan memahami dan mempercayai bisnis Anda.',
-                'image' => base_url('assets/images/placeholder-blog.svg'),
-                'slug' => 'informasi-penting-website-bisnis',
-                'category' => 'Website',
-                'date' => date('Y-m-d'),
-                'views' => 0,
-                'read_time' => 5
-            ]
-        ];
+        // Portofolio & artikel: kosongkan sampai ada data nyata
+        $portfolios = [];
+        $blogs = [];
         
         $data = [
             'title' => 'Cendratama Teknologi - Solusi Teknologi Terpercaya untuk Bisnis Anda',
